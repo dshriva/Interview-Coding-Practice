@@ -6,16 +6,16 @@ import java.util.Map;
 /*
  * created by divya at 7/15/2018
  */
-public class anagram_mappings {
+public class AnagramMappings {
     public static void main(String args[]) {
 
 
         int[] a = {12, 24, 34, 26, 27};
         int[] b = {24,12,26,27,34};
-        System.out.println(find_anagram(a,b));
+        System.out.println(findAnagram(a,b));
     }
 
-    private static int[] find_anagram(int[] a, int[] b) {
+    private static int[] findAnagram(int[] a, int[] b) {
         if (a == null || b == null){
             return null;
         }
